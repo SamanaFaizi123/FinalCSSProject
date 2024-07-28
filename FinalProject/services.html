@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+               
+                <a href="#">HOME</a>
+            </li>
+            <li>
+              
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+             
+                <a href="#">RESUME </a>
+              
+            </li>
+            <li>
+                
+                <a href="#">SERVICES</a>
+            </li>
+            <li>
+                
+                <a href="#">PORTFILIO</a>
+            </li>
+            <li>
+             
+                <a href="#">DROPDOWN <i class="fas fa-caret-down" ></i> </a>
+                <div class="dropdown-menu">
+                    <ul>
+                      <li><a href="#">dropdown1</a> </li>
+                      <li><a href="#">dropdown1</a></li>
+                      <li>
+                        <a href="#">dropdown1</a>
+                      </li>
+                      <li><a href="#">dropdown1</a> </li>
+                      <li><a href="#">dropdown1</a></li>
+                     
+                    </ul>
+                  </div>
+            </li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="div-all-2" id="services">
+        <span class="frist-title-2">My Services</span>
+        <h1 class="head2">My Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta libero incidunt vel nisi.</p>
+        <div class="services">
+            <div class="content content-1">
+                <div class="fas fa-globe"></div>
+                <h2>Samana</h2>
+                <p style="color: rgb(29, 26, 26);">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic atque quis deserunt, debitis harum laborum. Quia, aliquid nihil?
+                    Hic atque quis deserunt, debitis harum laborum.
+                </p>
+               
+            </div>
+            <div class="content content-2">
+                <div class="fa fa-tachometer-alt fa-file"></div>
+                <h2>Samana</h2>
+                <p style="color:rgb(29, 26, 26);">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic atque quis deserunt, debitis harum laborum. Quia, aliquid nihil?
+                    Hic atque quis deserunt, debitis harum laborum.
+                </p>
+               
+
+            </div>
+            <div class="content content-3">
+                <div class="fas fa-file"></div>
+                <h2>Samana</h2>
+                <p style="color:rgb(29, 26, 26);">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic atque quis deserunt, debitis harum laborum. Quia, aliquid nihil?
+                    Hic atque quis deserunt, debitis harum laborum.
+                </p>
+               
+
+            </div>
+            <div class="content content-3">
+                <div class="fas fa-globe"></div>
+                <h2>Samana</h2>
+                <p style="color:rgb(29, 26, 26);
+                ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic atque quis deserunt, debitis harum laborum. Quia, aliquid nihil?
+                    Hic atque quis deserunt, debitis harum laborum.
+                </p>
+                
+
+            </div>
+        </div>
+
+        </div>
+        <section class="container">
+            <div class="testimonial mySwiper">
+              <div class="testi-content swiper-wrapper">
+                <div class="slide swiper-slide">
+                  <img src="images/testimonials-3.jpg" alt="" class="image" />
+                  <div class="details">
+                    <span class="name">Marnie Lotter</span>
+                    <span class="job">Web Developer</span>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                  </p>
+      
+                  <i class="fa fa-chevronleft quote-icon"></i>
+      
+               
+                </div>
+                <div class="slide swiper-slide">
+                  <img src="images/testimonials-2.jpg" alt="" class="image" />
+                  <div class="details">
+                    <span class="name">Marnie Lotter</span>
+                    <span class="job">Web Developer</span>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                  </p>
+      
+                  <i class="fa fa-chevronleft quote-icon"></i>
+      
+                 
+                </div>
+                <div class="slide swiper-slide">
+                  <img src="./images/testimonials-1.jpg" alt="" class="image" />
+                  <div class="details">
+                    <span class="name">Marnie Lotter</span>
+                    <span class="job">Web Developer</span>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                  </p>
+      
+                  <i class="fa fa-chevronleft quote-icon"></i>
+      
+                
+                </div>
+              </div>
+              <div class="swiper-button-next nav-btn"></div>
+              <div class="swiper-button-prev nav-btn"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+          <script src="./js/swiper-bundle.min.js"></script>
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  grabCursor: true,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+          </script>
+     
+
+   
+
+    
+</body>
+</html>
